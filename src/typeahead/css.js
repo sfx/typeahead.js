@@ -9,51 +9,24 @@ var css = (function() {
 
   var css =  {
     wrapper: {
-      position: 'relative',
-      display: 'inline-block'
     },
     hint: {
-      position: 'absolute',
-      top: '0',
-      left: '0',
-      borderColor: 'transparent',
-      boxShadow: 'none',
-      // #741: fix hint opacity issue on iOS
-      opacity: '1'
     },
     input: {
-      position: 'relative',
-      verticalAlign: 'top',
-      backgroundColor: 'transparent'
     },
     inputWithNoHint: {
-      position: 'relative',
-      verticalAlign: 'top'
     },
     dropdown: {
-      position: 'absolute',
-      top: '100%',
-      left: '0',
-      zIndex: '100',
-      display: 'none'
     },
     suggestions: {
-      display: 'block'
     },
     suggestion: {
-      whiteSpace: 'nowrap',
-      cursor: 'pointer'
     },
     suggestionChild: {
-      whiteSpace: 'normal'
     },
     ltr: {
-      left: '0',
-      right: 'auto'
     },
     rtl: {
-      left: 'auto',
-      right:' 0'
     }
   };
 
